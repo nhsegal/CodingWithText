@@ -1,22 +1,11 @@
-var textfield;
-var output;
-var submit;
+//function preload(){
+//}
 
 function setup() {
-  noCanvas();
-  textfield = select("#textfield");
-  //textfield.changed(newText);
-  textfield.input(newTyping);
-  output = select('#output');
-  submit = select('#submit');
-  submit.mousePressed(newText);
+  //noCanvas();
+  //createCanvas(640, 480);
 }
 
-function newTyping(){
-  output.html(textfield.value());
-}
+function draw(){
 
-function newText(){
-  var outputString = textfield.value().split("").reverse().join("");
-  createP(outputString);
 }
